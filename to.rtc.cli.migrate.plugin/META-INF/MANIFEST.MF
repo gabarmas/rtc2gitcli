@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RTC2Git
+Bundle-SymbolicName: to.rtc.cli.migrate.plugin;singleton:=true
+Bundle-Version: 2.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: com.ibm.team.filesystem.cli.core;bundle-version="3.2.600",
+ org.eclipse.core.runtime;bundle-version="3.6.0",
+ com.ibm.team.filesystem.cli.client,
+ com.ibm.team.filesystem.client,
+ com.ibm.team.filesystem.common,
+ com.ibm.team.filesystem.rcp.core,
+ com.ibm.team.rtc.cli.infrastructure,
+ com.ibm.team.repository.client,
+ com.ibm.team.scm.common,
+ com.ibm.team.repository.common,
+ com.ibm.team.scm.client,
+ org.eclipse.jgit,
+ com.hp.hpl.jena.rdf,
+ org.junit
+Bundle-ClassPath: bin/,
+ .
+ 

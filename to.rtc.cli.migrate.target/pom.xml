@@ -1,0 +1,13 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>to.rtc</groupId>
+		<artifactId>cli.migrate.configuration</artifactId>
+		<version>2.0.0</version>
+		<relativePath>../to.rtc.cli.migrate.configuration</relativePath>
+	</parent>
+	<groupId>to.rtc</groupId>
+	<artifactId>cli.migrate.target</artifactId>
+	<version>2.0.0</version>
+	<packaging>eclipse-target-definition</packaging>
+</project>
